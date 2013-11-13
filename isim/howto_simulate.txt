@@ -1,0 +1,4 @@
+source /opt/Xilinx/14.7/ISE_DS/settings64.sh
+fuse -incremental -prj /media/mike/ACER/Mike/Documents/electronique/apertus/axi_lut/isim/isim.prj -o simu.exe work.testbench
+./simu.exe -gui
+
